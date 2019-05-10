@@ -1,4 +1,6 @@
 // import your npm packages
+import ApolloClient from 'apollo-boost';
+import { GetRepos, AddStar, RemoveStar } from './operations';
 
 // keys for actiontypes
 export const ActionTypes = {
